@@ -29,7 +29,8 @@ on:
         default: "cu124"
       EXTRA_TAG:
         description: "Extra tag"
-        required: false
+        required: true
+        default: "-no_models"
 
 jobs:
   build:
